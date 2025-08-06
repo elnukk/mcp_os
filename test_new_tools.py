@@ -1,6 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
-from src.mcp_weather_server.server import app
+from server import app
 
 client = TestClient(app)
 

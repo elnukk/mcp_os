@@ -11,9 +11,10 @@ import csv
 from io import StringIO
 
 
-from .tools import open_meteo, tomorrow_io, google_weather, openweathermap, accuweather, openai_llm, geographic_tools, crop_calendar_tools, alert_generation_tools
-from .a2a_agents import sms_agent, whatsapp_agent, ussd_agent, ivr_agent, telegram_agent
-from .utils.weather_utils import get_tool_config
+from tools import open_meteo, tomorrow_io, google_weather, openweathermap, accuweather, openai_llm, geographic_tools, crop_calendar_tools, alert_generation_tools
+from a2a_agents import sms_agent, whatsapp_agent, ussd_agent, ivr_agent, telegram_agent
+from utils.weather_utils import get_tool_config
+
 
 config = dotenv_values(".env")
 
